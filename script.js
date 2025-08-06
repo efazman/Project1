@@ -50,6 +50,8 @@ function displayCat() {
     catImage.src = 'EJ.png'; // Assuming the cat image is named "EJ.png"
     // Set alternative text for the image (for accessibility)
     catImage.alt = 'Cat';
+    catImage.width = 350;  // Set your desired width in pixels
+    catImage.height = 500;
     // When the cat image is fully loaded, add it to the image container
     catImage.onload = function() {
         imageContainer.appendChild(catImage);
